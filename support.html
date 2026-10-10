@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assistance — Suivi Heure & Repas</title>
+  <meta name="description" content="Questions fréquentes et contact du support de Suivi Heure & Repas.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site">
+    <a class="brand" href="./">Suivi Heure &amp; Repas</a>
+    <nav aria-label="Navigation principale">
+      <a href="./">Accueil</a>
+      <a href="support.html" aria-current="page">Assistance</a>
+      <a href="confidentialite.html">Confidentialité</a>
+      <a href="cgu.html">Conditions</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Assistance</h1>
+    <p class="updated">Dernière mise à jour : 10 octobre 2026</p>
+
+    <h2>Nous contacter</h2>
+    <div class="card">
+      <p>Écrivez-nous à <a href="mailto:suiviheure@proton.me?subject=Suivi%20Heure%20%26%20Repas%20%E2%80%94%20Support">suiviheure@proton.me</a>. Nous répondons en français, en général sous quelques jours.</p>
+      <p>Pour aller plus vite, indiquez :</p>
+      <ul>
+        <li>la version de l'app (Réglages › À propos) ;</li>
+        <li>la version d'iOS, d'iPadOS ou de macOS ;</li>
+        <li>votre modèle d'appareil (iPhone, iPad ou Mac) ;</li>
+        <li>ce que vous faisiez quand le problème est survenu.</li>
+      </ul>
+      <p>Depuis l'app, Réglages › Aide &amp; Support › « Écrire au support » ajoute automatiquement ces informations techniques, sans aucune donnée personnelle.</p>
+    </div>
+
+    <h2>Questions fréquentes</h2>
+    <p>Les mêmes réponses sont disponibles dans l'app, dans Réglages › Aide &amp; Support.</p>
+    <section>
+      <!-- FAQ:START -->
+      <h3>Saisie des heures et des repas</h3>
+      <details id="saisie_heures">
+        <summary>Comment saisir des heures sup ou une récupération ?</summary>
+        <p>Dans l&#x27;onglet Heures Sup, touchez +. Choisissez « Heure supplémentaire » ou « Récupération », la date, l&#x27;heure de début et l&#x27;heure de fin (par pas de 15 minutes), puis un profil de taux. Les montants brut et net estimés s&#x27;affichent avant l&#x27;enregistrement. Une récupération est déduite de votre total d&#x27;heures.</p>
+      </details>
+      <details id="saisie_repas">
+        <summary>Comment saisir un repas professionnel ?</summary>
+        <p>Dans l&#x27;onglet Heures Sup, basculez le sélecteur du haut sur « Repas », puis touchez +. Choisissez la date, l&#x27;employeur et le type de repas (déjeuner, dîner ou autre).</p>
+      </details>
+      <details id="valider">
+        <summary>Que signifient « Valider » et « Saisir en compta » ?</summary>
+        <p>« Valider » indique que vous avez vérifié une entrée : elle passe du rouge au vert dans le calendrier. « Saisir en compta » la marque comme traitée (déjà déclarée ou payée) : elle sort des totaux actifs mais reste consultable avec le filtre « Afficher les entrées traitées ». Une entrée traitée est toujours validée.</p>
+      </details>
+      <h3>Taux et majorations</h3>
+      <details id="taux">
+        <summary>Taux brut, taux net et taux de prélèvement : comment ça marche ?</summary>
+        <p>Chaque profil de taux a trois champs liés : taux brut, taux net et taux de prélèvement (charges). Renseignez-en deux, le troisième est calculé automatiquement (net = brut × (1 − taux de prélèvement)). Un profil doit avoir au moins un taux pour pouvoir saisir des heures.</p>
+      </details>
+      <details id="majorations">
+        <summary>Les majorations du week-end et des jours fériés sont-elles prises en compte ?</summary>
+        <p>Oui, si vous les renseignez dans le profil de taux (pourcentages facultatifs, selon votre convention collective). Elles s&#x27;appliquent aux heures du samedi, du dimanche et des jours fériés, et s&#x27;additionnent si un jour férié tombe un week-end. L&#x27;app ne gère pas de majoration de nuit.</p>
+      </details>
+      <h3>Employeurs et contrats</h3>
+      <details id="employeurs">
+        <summary>Comment gérer mes employeurs et mes contrats ?</summary>
+        <p>Réglages › Employeurs / Contrats. Pour chaque employeur, ajoutez des contrats CDI, CDD ou CDDU avec leurs dates, un volume hebdomadaire et la distance domicile-travail. Les profils de taux sont rattachés à un employeur. La version gratuite est limitée à un employeur ; Premium les rend illimités.</p>
+      </details>
+      <details id="semaine_type">
+        <summary>À quoi sert la semaine type ?</summary>
+        <p>La semaine type (Premium) décrit vos jours habituellement travaillés pour un employeur. Elle sert de base au Bilan fiscal (frais kilométriques et de repas) sans devoir saisir chaque journée. Une saisie réelle reste prioritaire sur la semaine type.</p>
+      </details>
+      <h3>Congés et jours fériés</h3>
+      <details id="conges">
+        <summary>Comment saisir des congés payés ou des jours de récupération ?</summary>
+        <p>Réglages › Congés / Récup, puis +. Choisissez le type (congé payé ou récupération), un jour ou plusieurs jours, et éventuellement l&#x27;employeur. Ces jours apparaissent dans le calendrier, les Statistiques et le Bilan fiscal.</p>
+      </details>
+      <details id="feries">
+        <summary>Comment sont gérés les jours fériés (France, Monaco) ?</summary>
+        <p>Réglages › Pays / jours fériés. Pour la France, la liste officielle est téléchargée depuis calendrier.api.gouv.fr. Monaco n&#x27;a pas de source officielle en ligne : l&#x27;app fournit une liste modifiable, à vérifier chaque année. Les jours fériés servent au calendrier et aux majorations.</p>
+      </details>
+      <h3>Calendrier</h3>
+      <details id="calendrier">
+        <summary>Que signifient les couleurs du calendrier ?</summary>
+        <p>Chaque jour peut afficher plusieurs pastilles : marron pour les jours fériés, congés et récupérations, bleu pour les jours travaillés, jaune pour les repas, vert pour les heures sup validées et rouge pour les heures sup ou repas à valider. Avec Premium, vous pouvez changer ces couleurs dans Réglages › Couleurs du calendrier.</p>
+      </details>
+      <h3>Statistiques et bilans</h3>
+      <details id="statistiques">
+        <summary>Que contient l&#x27;onglet Statistiques ?</summary>
+        <p>L&#x27;onglet Statistiques (Premium) regroupe des blocs que vous affichez ou masquez : heures travaillées, répartition par employeur, évolution mensuelle, frais réels estimés, repas, congés et récupérations, heures traitées. Deux options permettent d&#x27;inclure la semaine type et les entrées traitées dans les totaux.</p>
+      </details>
+      <details id="bilans">
+        <summary>Quelle différence entre le Bilan fiscal et le Bilan annuel ?</summary>
+        <p>Le Bilan annuel récapitule une année : heures, gains, jours travaillés, répartition par employeur et comparaison avec l&#x27;année précédente. Le Bilan fiscal estime vos frais réels (kilomètres et repas) et les compare à l&#x27;abattement forfaitaire de 10 %. Ce sont des estimations indicatives, pas un conseil fiscal. Les deux bilans sont Premium et exportables en PDF.</p>
+      </details>
+      <h3>Exports PDF et CSV</h3>
+      <details id="exports">
+        <summary>Comment exporter mes heures en PDF ou en CSV ?</summary>
+        <p>Réglages › Export PDF mensuel : choisissez le mois et le profil, puis partagez le document (Mail, Fichiers, impression…). L&#x27;export CSV pour votre comptable (Réglages › Export CSV comptable) est réservé à Premium. Les PDF sont toujours générés sur fond clair, même en mode sombre.</p>
+      </details>
+      <h3>Premium et achats</h3>
+      <details id="premium">
+        <summary>Que comprend Premium ?</summary>
+        <p>Premium est un achat unique qui ajoute : export CSV, synchronisation iCloud, employeurs illimités, vue consolidée, Statistiques, Bilans fiscal et annuel, semaine type, couleurs du calendrier, sauvegarde et restauration, alertes de seuils et widget par employeur. Il supprime aussi les publicités. L&#x27;achat « Supprimer les publicités » seul retire uniquement la publicité.</p>
+      </details>
+      <details id="restaurer">
+        <summary>J&#x27;ai changé d&#x27;appareil : comment récupérer mes achats ?</summary>
+        <p>Connectez-vous avec le même identifiant Apple, puis touchez « Restaurer mes achats » dans Aide &amp; Support (ou dans les Réglages). Vos achats sont gérés par Apple : ils ne sont jamais facturés une seconde fois.</p>
+      </details>
+      <h3>iCloud, sauvegarde et restauration</h3>
+      <details id="icloud">
+        <summary>Comment fonctionne la synchronisation iCloud ?</summary>
+        <p>Avec Premium, vos données sont synchronisées entre vos appareils connectés au même compte iCloud, via votre base de données privée iCloud. Redémarrez l&#x27;app après l&#x27;activation de Premium pour lancer la synchronisation. L&#x27;état de la synchronisation est visible dans les Réglages.</p>
+      </details>
+      <details id="sauvegarde">
+        <summary>Comment sauvegarder ou restaurer mes données ?</summary>
+        <p>Réglages › Sauvegarde / Restauration (Premium) crée un fichier JSON contenant vos heures, repas, employeurs et profils, à garder dans Fichiers ou à envoyer. La restauration ajoute les données manquantes sans rien supprimer ni dupliquer. Sans Premium ni iCloud, vos données restent uniquement sur l&#x27;appareil : supprimer l&#x27;app les efface.</p>
+      </details>
+      <h3>Notifications et seuils</h3>
+      <details id="notifications">
+        <summary>Quelles notifications l&#x27;app peut-elle envoyer ?</summary>
+        <p>Réglages › Notifications : un rappel quotidien à l&#x27;heure de votre choix pour saisir vos heures, et un rappel annuel pour la période de déclaration de revenus. Avec Premium, Alertes &amp; Seuils vous prévient à 80 % puis à 100 % de vos seuils d&#x27;heures (semaine, mois, année) et de repas. Les seuils sont indicatifs : vérifiez la réglementation en vigueur.</p>
+      </details>
+      <h3>Widgets</h3>
+      <details id="widgets">
+        <summary>Comment ajouter un widget ?</summary>
+        <p>Touchez longuement l&#x27;écran d&#x27;accueil, puis Modifier › Ajouter un widget et cherchez « Suivi Heure ». Le widget « Heures Supplémentaires » (petit ou moyen) affiche les heures, gains et repas du mois ; le widget d&#x27;écran verrouillé affiche les heures du mois ; le widget « Par Employeur » est réservé à Premium. Les widgets se mettent à jour après chaque saisie.</p>
+      </details>
+      <h3>Publicités et confidentialité</h3>
+      <details id="pub">
+        <summary>Pourquoi une publicité s&#x27;affiche-t-elle ?</summary>
+        <p>La version gratuite peut afficher une publicité plein écran quand vous revenez dans l&#x27;app (au plus une toutes les 5 minutes, jamais au premier lancement). Elle disparaît avec l&#x27;achat « Supprimer les publicités » ou Premium.</p>
+      </details>
+      <details id="consentement">
+        <summary>Comment modifier mon consentement publicitaire ?</summary>
+        <p>Dans l&#x27;Union européenne, au Royaume-Uni et en Suisse, un message de consentement Google (RGPD) s&#x27;affiche au lancement, puis iOS vous demande l&#x27;autorisation de suivi. Vous pouvez changer d&#x27;avis dans Réglages › Gérer le consentement publicitaire, et dans Réglages iOS › Confidentialité et sécurité › Suivi. Refuser ne limite aucune fonctionnalité.</p>
+      </details>
+      <details id="donnees">
+        <summary>Mes données sont-elles envoyées à l&#x27;éditeur ?</summary>
+        <p>Non. Il n&#x27;y a ni compte ni serveur : vos saisies restent sur votre appareil et, avec Premium, dans votre iCloud privé. Seules la publicité (Google AdMob, avec votre consentement), les achats (Apple) et le téléchargement des jours fériés français utilisent le réseau. Détails dans la politique de confidentialité.</p>
+      </details>
+      <!-- FAQ:END -->
+    </section>
+  </main>
+  <footer class="site">
+    <nav aria-label="Pages légales">
+      <a href="support.html">Assistance</a>
+      <a href="confidentialite.html">Politique de confidentialité</a>
+      <a href="cgu.html">Conditions d'utilisation</a>
+      <a href="mailto:suiviheure@proton.me">suiviheure@proton.me</a>
+    </nav>
+    <p>Ce site n'utilise ni cookie ni outil de mesure d'audience.</p>
+  </footer>
+</body>
+</html>
