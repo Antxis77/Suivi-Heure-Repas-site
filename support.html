@@ -44,6 +44,10 @@
         <summary>Comment saisir des heures sup ou une récupération ?</summary>
         <p>Dans l&#x27;onglet Heures Sup, touchez +. Choisissez « Heure supplémentaire » ou « Récupération », la date, l&#x27;heure de début et l&#x27;heure de fin (par pas de 15 minutes), puis un profil de taux. Les montants brut et net estimés s&#x27;affichent avant l&#x27;enregistrement. Une récupération est déduite de votre total d&#x27;heures.</p>
       </details>
+      <details id="saisie_minuit">
+        <summary>Puis-je saisir une heure sup qui passe minuit ?</summary>
+        <p>Oui. Indiquez simplement l&#x27;heure de début et l&#x27;heure de fin, par exemple 22:00 et 02:00 : si l&#x27;heure de fin est avant l&#x27;heure de début, elle est placée le lendemain et « +1 j » s&#x27;affiche à côté. La saisie reste rattachée au jour où le service commence (calendrier, totaux, exports). Une saisie dure au maximum 24 h, et un début égal à la fin est refusé.</p>
+      </details>
       <details id="saisie_repas">
         <summary>Comment saisir un repas professionnel ?</summary>
         <p>Dans l&#x27;onglet Heures Sup, basculez le sélecteur du haut sur « Repas », puis touchez +. Choisissez la date, l&#x27;employeur et le type de repas (déjeuner, dîner ou autre).</p>
@@ -59,7 +63,7 @@
       </details>
       <details id="majorations">
         <summary>Les majorations du week-end et des jours fériés sont-elles prises en compte ?</summary>
-        <p>Oui, si vous les renseignez dans le profil de taux (pourcentages facultatifs, selon votre convention collective). Elles s&#x27;appliquent aux heures du samedi, du dimanche et des jours fériés, et s&#x27;additionnent si un jour férié tombe un week-end. L&#x27;app ne gère pas de majoration de nuit.</p>
+        <p>Oui, si vous les renseignez dans le profil de taux (pourcentages facultatifs, selon votre convention collective). Elles s&#x27;appliquent aux heures du samedi, du dimanche et des jours fériés, et s&#x27;additionnent si un jour férié tombe un week-end. Pour une saisie qui passe minuit, chaque partie est majorée selon son propre jour. L&#x27;app ne gère pas de majoration de nuit.</p>
       </details>
       <h3>Employeurs et contrats</h3>
       <details id="employeurs">
